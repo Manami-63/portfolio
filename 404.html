@@ -4,14 +4,12 @@
 
     <script>
       (function (l) {
-        if (l.hash) {
-          window.history.replaceState(null, null, l.hash.slice(1));
-        }
+        l.replace(l.origin + "/#" + l.pathname);
       })(window.location);
     </script>
 
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/x-icon"  href="/portfolio/image/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon"  href="/image/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Manami Saito</title>
@@ -21,10 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500&icon_names=toggle_off,toggle_on" rel="stylesheet" />
 
-    <script type="module" crossorigin src="/portfolio/assets/index-BCCxbRzB.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-BD4AZ7lz.css">
   </head>
-  <body class="overflow-hidden">
-    <div id="app"></div>
-  </body>
+
+  <body></body>
+
 </html>
